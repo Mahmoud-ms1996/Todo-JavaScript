@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+        <div class="todo-continer">
+            <div class="add-task">
+                <input type="text" placeholder="Add Your Task here...">
+                <span class="plus">+</span>
+            </div>
+            <div class="tasks-content">
+                <!-- <span class="btns">
+                    <span class="completed-all-btn">Completed All</span>
+                    <span class="delete-all-btn">Deleted All</span>
+                    </span> -->
+                <span class="no-tasks-message">
+                    <span class="task-num">No Tasks To Show</span>
+                </span>
+                <!-- <span class="task-box">
+                    <span class="task-num">Task one</span>  
+                    <span class="delete">Delete</span>
+                </span>
+                <span class="task-box">
+                    <span class="task-num">Task two</span>
+                    <span class="delete">Delete</span>
+                </span> -->
+            </div>
+        </div>
+
+        <div class="stats-task">
+            <div class="count-tasks">
+                Tasks: <span>0</span>
+            </div>
+            <div class="completed-tasks">
+                Completed: <span>0</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
